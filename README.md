@@ -1,3 +1,15 @@
+# Hi there! I'm Syum Berihu 👋
+
+## 🚀 About Me
+Software developer passionate about building innovative solutions...
+
+## 🔧 Tech Stack
+- Python, JavaScript, Java
+- Web Development, Terminal Applications
+
+## 📫 Connect with Me
+- Email: syum2011mit@gmail.com
+- GitHub: https://github.com/Syum-Berihu
 # Turtle - Terminal For All of Us
 
 A modern, user-friendly terminal emulator designed for developers of all skill levels.
