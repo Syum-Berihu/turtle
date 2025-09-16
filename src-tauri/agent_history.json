@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-06-02T17:23:04.738855",
+    "instruction": "hello",
+    "command": "echo \"Hello\"",
+    "stdout": "Hello\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T17:26:28.063612",
+    "instruction": "list the files in the current directory",
+    "command": "ls",
+    "stdout": "agent_history.json\nbin\nbuild.rs\ncapabilities\nCargo.lock\nCargo.toml\ngen\nicons\npackage.json\nsrc\ntarget\ntauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:10:14.782184",
+    "instruction": "show me a list of files in this directory",
+    "command": "ls",
+    "stdout": "agent_history.json\nbin\nbuild.rs\ncapabilities\nCargo.lock\nCargo.toml\ngen\nicons\npackage.json\nsrc\ntarget\ntauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:18:49.983687",
+    "instruction": "please show me a list of all my files in this directory",
+    "command": "ls -l",
+    "stdout": "total 172\n-rw-rw-r-- 1 yuri yuri    832 Jun  2 19:10 agent_history.json\ndrwxrwxr-x 6 yuri yuri   4096 Jun  2 17:30 bin\n-rw-rw-r-- 1 yuri yuri     39 May  3 22:06 build.rs\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 capabilities\n-rw-rw-r-- 1 yuri yuri 128804 May 28 18:19 Cargo.lock\n-rw-rw-r-- 1 yuri yuri    803 May 28 18:19 Cargo.toml\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:10 gen\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 icons\n-rw-rw-r-- 1 yuri yuri    198 May 28 18:19 package.json\ndrwxrwxr-x 2 yuri yuri   4096 Jun  2 17:53 src\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:11 target\n-rw-rw-r-- 1 yuri yuri    679 May  3 22:06 tauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:19:04.404030",
+    "instruction": "",
+    "command": "pwd",
+    "stdout": "/home/yuri/projects/finalProject/turtle/src-tauri\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:19:04.418662",
+    "instruction": "",
+    "command": "ls -la",
+    "stdout": "total 188\ndrwxrwxr-x  9 yuri yuri   4096 Jun  2 17:53 .\ndrwxrwxr-x 10 yuri yuri   4096 Jun  2 17:53 ..\ndrwxrwxr-x  2 yuri yuri   4096 Jun  2 17:20 .agent_backups\n-rw-rw-r--  1 yuri yuri   1910 Jun  2 19:19 agent_history.json\ndrwxrwxr-x  6 yuri yuri   4096 Jun  2 17:30 bin\n-rw-rw-r--  1 yuri yuri     39 May  3 22:06 build.rs\ndrwxrwxr-x  2 yuri yuri   4096 May  3 22:06 capabilities\n-rw-rw-r--  1 yuri yuri 128804 May 28 18:19 Cargo.lock\n-rw-rw-r--  1 yuri yuri    803 May 28 18:19 Cargo.toml\ndrwxrwxr-x  3 yuri yuri   4096 May  3 22:10 gen\n-rw-rw-r--  1 yuri yuri    166 May  3 22:06 .gitignore\ndrwxrwxr-x  2 yuri yuri   4096 May  3 22:06 icons\n-rw-rw-r--  1 yuri yuri    198 May 28 18:19 package.json\ndrwxrwxr-x  2 yuri yuri   4096 Jun  2 17:53 src\ndrwxrwxr-x  3 yuri yuri   4096 May  3 22:11 target\n-rw-rw-r--  1 yuri yuri    679 May  3 22:06 tauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:19:04.439327",
+    "instruction": "",
+    "command": "mkdir new_directory",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:24:31.267357",
+    "instruction": "show me a list of all my files",
+    "command": "ls -a",
+    "stdout": ".\n..\n.agent_backups\nagent_history.json\nbin\nbuild.rs\ncapabilities\nCargo.lock\nCargo.toml\ngen\n.gitignore\nicons\nnew_directory\npackage.json\nscript.sh\nsrc\ntarget\ntauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:27:56.605083",
+    "instruction": "",
+    "command": "touch hello_world.py",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:30:41.524421",
+    "instruction": "show me a list of all my files",
+    "command": "ls -l",
+    "stdout": "total 184\n-rw-rw-r-- 1 yuri yuri   3675 Jun  2 19:27 agent_history.json\ndrwxrwxr-x 6 yuri yuri   4096 Jun  2 17:30 bin\n-rw-rw-r-- 1 yuri yuri     39 May  3 22:06 build.rs\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 capabilities\n-rw-rw-r-- 1 yuri yuri 128804 May 28 18:19 Cargo.lock\n-rw-rw-r-- 1 yuri yuri    803 May 28 18:19 Cargo.toml\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:10 gen\n-rw-rw-r-- 1 yuri yuri     23 Jun  2 19:27 hello_world.py\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 icons\ndrwxrwxr-x 2 yuri yuri   4096 Jun  2 19:19 new_directory\n-rw-rw-r-- 1 yuri yuri    198 May 28 18:19 package.json\n-rw-rw-r-- 1 yuri yuri     38 Jun  2 19:19 script.sh\ndrwxrwxr-x 2 yuri yuri   4096 Jun  2 17:53 src\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:11 target\n-rw-rw-r-- 1 yuri yuri    679 May  3 22:06 tauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T19:31:03.846706",
+    "instruction": "show me a list of all my files",
+    "command": "ls -l",
+    "stdout": "total 188\n-rw-rw-r-- 1 yuri yuri   4691 Jun  2 19:30 agent_history.json\ndrwxrwxr-x 6 yuri yuri   4096 Jun  2 17:30 bin\n-rw-rw-r-- 1 yuri yuri     39 May  3 22:06 build.rs\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 capabilities\n-rw-rw-r-- 1 yuri yuri 128804 May 28 18:19 Cargo.lock\n-rw-rw-r-- 1 yuri yuri    803 May 28 18:19 Cargo.toml\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:10 gen\n-rw-rw-r-- 1 yuri yuri     23 Jun  2 19:27 hello_world.py\ndrwxrwxr-x 2 yuri yuri   4096 May  3 22:06 icons\ndrwxrwxr-x 2 yuri yuri   4096 Jun  2 19:19 new_directory\n-rw-rw-r-- 1 yuri yuri    198 May 28 18:19 package.json\n-rw-rw-r-- 1 yuri yuri     38 Jun  2 19:19 script.sh\ndrwxrwxr-x 2 yuri yuri   4096 Jun  2 17:53 src\ndrwxrwxr-x 3 yuri yuri   4096 May  3 22:11 target\n-rw-rw-r-- 1 yuri yuri    679 May  3 22:06 tauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T22:18:27.039125",
+    "instruction": "list all items in my directory",
+    "command": "ls -la",
+    "stdout": "total 204\ndrwxrwxr-x 10 yuri yuri   4096 Jun  2 19:27 .\ndrwxrwxr-x 10 yuri yuri   4096 Jun  2 17:53 ..\ndrwxrwxr-x  2 yuri yuri   4096 Jun  2 17:20 .agent_backups\n-rw-rw-r--  1 yuri yuri   5707 Jun  2 19:31 agent_history.json\ndrwxrwxr-x  6 yuri yuri   4096 Jun  2 17:30 bin\n-rw-rw-r--  1 yuri yuri     39 May  3 22:06 build.rs\ndrwxrwxr-x  2 yuri yuri   4096 May  3 22:06 capabilities\n-rw-rw-r--  1 yuri yuri 128804 May 28 18:19 Cargo.lock\n-rw-rw-r--  1 yuri yuri    803 May 28 18:19 Cargo.toml\ndrwxrwxr-x  3 yuri yuri   4096 May  3 22:10 gen\n-rw-rw-r--  1 yuri yuri    166 May  3 22:06 .gitignore\n-rw-rw-r--  1 yuri yuri     23 Jun  2 19:27 hello_world.py\ndrwxrwxr-x  2 yuri yuri   4096 May  3 22:06 icons\ndrwxrwxr-x  2 yuri yuri   4096 Jun  2 19:19 new_directory\n-rw-rw-r--  1 yuri yuri    198 May 28 18:19 package.json\n-rw-rw-r--  1 yuri yuri     38 Jun  2 19:19 script.sh\ndrwxrwxr-x  2 yuri yuri   4096 Jun  2 17:53 src\ndrwxrwxr-x  3 yuri yuri   4096 May  3 22:11 target\n-rw-rw-r--  1 yuri yuri    679 May  3 22:06 tauri.conf.json\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

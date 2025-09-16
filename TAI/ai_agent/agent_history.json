@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-06-02T15:48:40.923206",
+    "instruction": "make a small script in python that does something inside a new create dir caled meow-meow",
+    "command": "mkdir meow-meow",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "timestamp": "2025-06-02T15:48:40.934108",
+    "instruction": "make a small script in python that does something inside a new create dir caled meow-meow",
+    "command": "cd meow-meow",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0
+  }
+]

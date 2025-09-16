@@ -1,0 +1,18 @@
+[project]
+name = "ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.79.0",
+    "prompt-toolkit>=3.0.51",
+    "python-dotenv>=1.1.0",
+    "rich>=14.0.0",
+    "typer>=0.15.4",
+]
+
+[dependency-groups]
+dev = [
+    "nuitka>=2.7.4",
+]
